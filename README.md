@@ -1,6 +1,8 @@
 # Smart-Cart
 IEEE HSB - Smart Cart
 
+![Example](./docs/cart-real-example.jpg)
+
 ##  Product Perspective
 The Amazon cart will be added system to supermarket where user can serve himself, interact with cart interface presented on 
 TFT display and paying by google pay by his phone
