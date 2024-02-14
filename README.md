@@ -1,25 +1,23 @@
-# Smart-Cart
-IEEE HSB - Smart Cart
+# Smart Cart
 
-![Example](./docs/cart-real-example.jpg)
+*Smart cart for supermarkets that provides the best shopping experience*
 
-##  Product Perspective
-The Amazon cart will be added system to supermarket where user can serve himself, interact with cart interface presented on 
-TFT display and paying by google pay by his phone
+Customers need no cash money, no cashiers, nor printed invoices.
+They just scan the QR code in cart's screen with their phone, pick their needs, 
+and go, all automated via online payment!
+That can significantly decrease labor cost in the long run 
+and eliminates queues in rush hours.
 
-## Product Features
-Real time tracking of added and removed products from the cart
-Easy way for payment using GPAY
+The cart detects what a customer puts in or removes from the basket.
+It displays what products are picked, their prices and total.
+It also displays QR code to confirm payment from the phone's browser.
 
-## References
-1. [Google Pay API](https://developers.google.com/pay/api/android/guides/test-and-deploy/integration-checklist)
-2. [Flutter Payment Integration, Google Pay](https://dhruvnakum.xyz/flutter-payment-integration-google-pay)
-3. [Google Pay and Apple Pay Integration in Flutter Apps](https://medium.com/vijay-r/google-pay-and-apple-pay-integration-in-flutter-apps-payments-in-flutter-app-mobile-payments-9fcfe6b4c7da)
-4. [IEEE Std 830-1998 for SRS](http://www.math.uaa.alaska.edu/~afkjm/cs401/IEEE830.pdf)
+![Cart Example](./docs/cart-real-example.jpg)
+![QR Example](./docs/cart-qr-example.jpg)
+
 
 ## Specific Requirements 
 ### Components
-
 
 ### Functional Requirements
 
@@ -41,6 +39,7 @@ Easy way for payment using GPAY
 ## Timeline
 
 > 4 Weeks time line
+
 - Week 1:
   - The first half of the API 
   - Most of Interface  
