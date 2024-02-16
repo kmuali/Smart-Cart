@@ -45,56 +45,45 @@ a customer who is in the market, has a payment method, and a smart phone.
 <!-------------------------------------------------------------------->
 <!-------------------------------------------------------------------->
 ## Specific Requirements
-### Hardware Requirements
-#### Components (Draft)
+### External Interface Requirements
+#### User Interfaces
+We have two user interfaces, Cart UI, and customer's phone UI.
 
-| # | Item | Description | Link | Required for | 
-| - |:--------- |:----- | ---- | ------- |
-| 1 | Raspberry Pi | Main controler and includes Wi-Fi | - | Development
-| 2 | Camera | Detects produts inside the cart's basket | - | Development
-| 3 | LCD Touch Screen | Displays products details and QR code of payment link | - | Production
-| 4 | HDMI Cable | Connects touch screen with Raspberry Pi | - | Production 
-| 5 | White torch(es) | Light the basket for the camera | - | Production
-| 6 | Power Bank | Provides power for all components | - | Production
-| 7 | Cart body | Has a suitable basket and holds torches and other components | - | Production
+##### User Interface of Cart
+A web interface which is accessible in cart's touch screen.
+It displays the detected products, displays a QR code for payment, 
+and sends invoices.
 
-<!-------------------------------------------------------------------->
-<!-- ### Software Requirements -->
-<!-------------------------------------------------------------------->
-<!-- #### Cart Application Functions  -->
-<!--   - Send the invoice id (through NFC module) -->
-<!--   - Show The cart content -->
-<!--   - proceed the payment  -->
-<!--   - Initiating invoice in database  -->
-<!--   - check if the token payment is added to the invoice  -->
-<!--   - Send invoice to the user email -->
-<!--   - sdf -->
-<!---->
-<!-- #### Mobile App Functions (Web) -->
-<!--   - User Sign in/Sign up -->
-<!--   - Making a shopping list (NOTE Type) -->
-<!--   - Receive invoice id (through NFC module) -->
-<!--   - Add payment method (GPAY) -->
-<!---->
+![Cart UI Abstract](./docs/cart-ui-abstract.jpg)
 
-<!-- ## Timeline -->
+##### User Interface of Customer's Phone
+A web interface which is accessible in customer's web browser.
+It has registration System, save invoices, and does payments.
+
+![Phone UI Abstract](./docs/phone-ui-abstract.jpg)
+
+
+<!-- #### Hardware Interfaces -->
 <!---->
-<!-- > 4 Weeks time line -->
+<!-- #### Software Interfaces -->
 <!---->
-<!-- - Week 1: -->
-<!--   - The first half of the API  -->
-<!--   - Most of Interface   -->
-<!--   - Most Mobile Application -->
-<!-- - Week 2: -->
-<!--   - Finish The first half of the API  -->
-<!--   - Finish Most of Interface  -->
-<!--   - Finish Most Mobile Application -->
-<!-- - Week 3: -->
-<!--   - TESTING -->
-<!-- - Week 4: -->
-<!--   - FOR ANY DELAYS -->
+<!-- #### External Data Interfaces -->
 <!---->
-<!-- ## Documentation -->
-<!-- ### Software Requirements Specification -->
+<!-- #### Components of Cart Controller -->
 <!---->
-<!-- [SRS](https://www.canva.com/design/DAF8CRP1bgE/U058Kk-7zvLUVRiLpafPwg/view?utm_content=DAF8CRP1bgE&utm_campaign=designshare&utm_medium=link&utm_source=editor "title") -->
+<!-- | # | Item             | Description                                           | Required in  |  -->
+<!-- | - |:---------------- |:----------------------------------------------------- | ------------ | -->
+<!-- | 1 | Raspberry Pi     | Main microcontroler and includes Wi-Fi                | Development  | -->
+<!-- | 2 | Camera           | Detects produts inside the cart's basket              | Development  | -->
+<!-- | 3 | LCD Touch Screen | Displays products details and QR code of payment link | Production   | -->
+<!-- | 4 | HDMI Cable       | Connects touch screen with Raspberry Pi               | Production   | -->
+<!-- | 5 | White torch(es)  | Light the basket for the camera                       | Production   | -->
+<!-- | 6 | Power Bank       | Provides power for all components                     | Production   | -->
+<!---->
+<!-- ### Functional Requirements -->
+<!---->
+<!-- ### Non-Functional Requirements -->
+<!---->
+<!-- ### System Design -->
+<!---->
+<!-- ### Organizational Requirements -->
