@@ -87,3 +87,9 @@ It has registration System, save invoices, and does payments.
 <!-- ### System Design -->
 <!---->
 <!-- ### Organizational Requirements -->
+
+<!-------------------------------------------------------------------->
+<!-------------------------------------------------------------------->
+<!-- New Design uncomment if good -->
+<!-- ![Over View Diagram](.\docs\OverView.png) -->
+<!-- ![Block Diagram](.\docs\Block-Diagram.png) -->
